@@ -1,0 +1,34 @@
+2018-08-02 18:30:17,907 - root - INFO - ********TEST START********
+2018-08-02 18:30:17,912 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"platformName": "iOS", "platformVersion": "11.4", "deviceName": "iPhone 6", "automationName": "XCUITest", "bundleId": "com.gelonghui.glhapp", "udid": "d41188e5675afe4996c7f5a5d8850694ffe14f79"}, "requiredCapabilities": {}}
+2018-08-02 18:30:22,817 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:22,818 - root - INFO - 打开app
+2018-08-02 18:30:22,818 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element {"using": "xpath", "value": "//XCUIElementTypeButton[@name=\"NavigationBar Mine\"]", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:26,865 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:26,865 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element {"using": "xpath", "value": "//XCUIElementTypeButton[@name=\"NavigationBar Mine\"]", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:30,668 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:30,668 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element/4F4FEEFF-5CD5-4BC4-AD86-F55917067FA8/text {"id": "4F4FEEFF-5CD5-4BC4-AD86-F55917067FA8", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:31,520 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:31,521 - root - INFO - 找到 ' NavigationBar Mine ' 元素成功by xpath via value //XCUIElementTypeButton[@name="NavigationBar Mine"]
+2018-08-02 18:30:31,521 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element/4F4FEEFF-5CD5-4BC4-AD86-F55917067FA8/click {"id": "4F4FEEFF-5CD5-4BC4-AD86-F55917067FA8", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:33,451 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:33,452 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element/4F4FEEFF-5CD5-4BC4-AD86-F55917067FA8/text {"id": "4F4FEEFF-5CD5-4BC4-AD86-F55917067FA8", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:34,707 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:34,707 - root - INFO - 元素 ' NavigationBar Mine ' 已点击。
+2018-08-02 18:30:34,707 - root - INFO - 点击左上方"个人中心"图标
+2018-08-02 18:30:35,712 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element {"using": "xpath", "value": "//XCUIElementTypeButton[@name=\"\u767b\u5f55\"]", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:41,606 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:41,606 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element {"using": "xpath", "value": "//XCUIElementTypeButton[@name=\"\u767b\u5f55\"]", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:47,018 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:47,018 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element/38A50C3F-2761-4B41-8E16-CA7783E2AF50/text {"id": "38A50C3F-2761-4B41-8E16-CA7783E2AF50", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:48,103 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:48,103 - root - INFO - 找到 ' 登录 ' 元素成功by xpath via value //XCUIElementTypeButton[@name="登录"]
+2018-08-02 18:30:48,103 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element/38A50C3F-2761-4B41-8E16-CA7783E2AF50/click {"id": "38A50C3F-2761-4B41-8E16-CA7783E2AF50", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:50,828 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:50,828 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c/element/38A50C3F-2761-4B41-8E16-CA7783E2AF50/text {"id": "38A50C3F-2761-4B41-8E16-CA7783E2AF50", "sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:52,078 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:52,078 - root - INFO - 元素 ' 登录 ' 已点击。
+2018-08-02 18:30:52,078 - root - INFO - 在个人中心点击"登录"按钮
+2018-08-02 18:30:55,079 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://127.0.0.1:4723/wd/hub/session/51180993-d4ed-4755-acec-4e6a31185c3c {"sessionId": "51180993-d4ed-4755-acec-4e6a31185c3c"}
+2018-08-02 18:30:55,556 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2018-08-02 18:30:55,557 - root - INFO - *********TEST END*********
+2018-08-02 18:30:57,005 - root - INFO - 测试结果已发送至邮箱.
